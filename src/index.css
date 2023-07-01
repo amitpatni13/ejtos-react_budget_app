@@ -15,5 +15,32 @@ code {
 .flex {
     display: flex;
     flex-direction: row;
-    margin-left: 0.5rem !important;
+}
+
+.currency {
+    background-color: #98eb98 !important;
+    color: black !important;
+    border: none;
+}
+
+.currencyMain {
+    background-color: #98eb98 !important;
+    color: white !important;
+}
+
+select.currency>option {
+    background-color: #98eb98;
+}
+
+select.currency>option:selected {
+    color: white !important;
+}
+
+select.currency>option:hover {
+    background-color: #f9fcf9 !important;
+}
+.expense-btn {
+    border-radius: 50% !important;
+    padding: 4px 5px 2px 5px !important;
+    font-size: 18px !important;
 }
